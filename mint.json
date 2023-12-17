@@ -1,29 +1,26 @@
 {
   "$schema": "https://mintlify.com/schema.json",
-  "name": "Starter Kit",
+  "name": "KyTech",
   "logo": {
-    "dark": "/logo/dark.svg",
-    "light": "/logo/light.svg"
+    "dark": "/logo/logo.svg",
+    "light": "/logo/logo.svg"
   },
   "favicon": "/favicon.svg",
   "colors": {
-    "primary": "#0D9373",
-    "light": "#07C983",
-    "dark": "#0D9373",
+    "primary": "#4040b2",
+    "light": "#4040b2",
+    "dark": "#4040b2",
     "anchors": {
       "from": "#0D9373",
       "to": "#07C983"
     }
   },
   "topbarLinks": [
-    {
-      "name": "Support",
-      "url": "mailto:hi@mintlify.com"
-    }
+    
   ],
   "topbarCtaButton": {
-    "name": "Dashboard",
-    "url": "https://dashboard.mintlify.com"
+    "name": "Support",
+    "url": "mailto:support@kytech.ca"
   },
   "tabs": [
     {
@@ -50,8 +47,8 @@
   ],
   "navigation": [
     {
-      "group": "Get Started",
-      "pages": ["introduction", "quickstart", "development"]
+      "group": "Ghost Blog",
+      "pages": ["what-is-ghost", "author-setup", "development"]
     },
     {
       "group": "Essentials",
@@ -71,8 +68,7 @@
     }
   ],
   "footerSocials": {
-    "twitter": "https://twitter.com/mintlify",
-    "github": "https://github.com/mintlify",
-    "linkedin": "https://www.linkedin.com/company/mintsearch"
+    "twitter": "https://twitter.com/KyTechInc",
+    "linkedin": "https://www.linkedin.com/company/kytech-inc"
   }
 }
